@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 div {
@@ -19,7 +19,7 @@ h4,
 h5,
 h6,
 p {
-  color: white;
+  color: black;
 }
 
 hr {
@@ -43,16 +43,16 @@ hr {
 
 .Dish {
   pointer-events: none;
-  border: solid white;
-  border-collapse: collapse;
   align-items: center;
+  border: solid 2px transparent;
   padding: 1px;
-  background-color: rgb(36, 36, 36);
+  margin: 1px;
+  background-color: wheat;
   transition: 0.2s;
 }
 
 .Dish:hover {
-  border: solid yellow;
+  border: solid 2px black;
 }
 
 .DishName {
@@ -63,7 +63,12 @@ hr {
 }
 
 .DishName:hover {
-  color: yellow;
+  background-color: rgb(231, 201, 145);
+}
+
+.DishName:active {
+  background-color: rgb(226, 176, 84);
+  transition: none;
 }
 
 .FooterDiv {
