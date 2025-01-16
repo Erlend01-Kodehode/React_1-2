@@ -8,8 +8,22 @@
   transition: 0.2s;
 }
 
+.DishDark {
+  height: 400px;
+  pointer-events: none;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 2px rgb(255, 240, 211);
+  background-color: rgb(24, 24, 24);
+  transition: 0.2s;
+}
+
 .Dish:hover {
   border: solid 2px grey;
+}
+
+.DishDark:hover {
+  border: solid 2px rgb(255, 210, 128);
 }
 
 .Dish:active > .DishSeperator {
@@ -20,6 +34,12 @@
 .Dish:active {
   border: solid 2px black;
   background-color: rgb(231, 201, 145);
+  transition: none;
+}
+
+.DishDark:active {
+  border: solid 2px orange;
+  background-color: rgb(77, 77, 77);
   transition: none;
 }
 
