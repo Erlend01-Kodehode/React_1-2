@@ -1,0 +1,59 @@
+.Dish {
+  height: 400px;
+  pointer-events: none;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 2px lightgrey;
+  background-color: wheat;
+  transition: 0.2s;
+}
+
+.Dish:hover {
+  border: solid 2px grey;
+}
+
+.Dish:active > .DishSeperator {
+  color: rgb(226, 176, 84);
+  transition: none;
+}
+
+.Dish:active {
+  border: solid 2px black;
+  background-color: rgb(231, 201, 145);
+  transition: none;
+}
+
+.DishName {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.2s;
+  pointer-events: auto;
+  text-shadow: 1px 1px lightgrey;
+}
+
+.DishName:hover {
+  background-color: rgb(231, 201, 145);
+}
+
+.DishName:active {
+  background-color: rgb(226, 176, 84);
+  transition: none;
+}
+
+.DishSeperator {
+  color: rgb(231, 201, 145);
+  transition: 0.2s;
+}
+
+.DishCategory {
+  text-shadow: 1px 1px lightgrey;
+}
+
+.DishIngredients {
+  text-shadow: 1px 1px lightgrey;
+}
+
+.DishPrice {
+  text-shadow: 1px 1px lightgrey;
+  font-size: 1.5em;
+}
