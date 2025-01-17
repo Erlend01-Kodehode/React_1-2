@@ -2,4 +2,5 @@
   align-items: center;
   background-color: wheat;
   margin: -2px -10px 0px;
+  border-bottom: solid 2px grey;
 }

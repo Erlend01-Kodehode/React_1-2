@@ -6,6 +6,7 @@
   border: solid 2px lightgrey;
   background-color: wheat;
   transition: 0.2s;
+  box-shadow: 1px 1px 1px 1px grey;
 }
 
 .DishDark {
